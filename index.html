@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="main.css">
   </head>
   <body>
+    <main>
+      
     <div id="headComplete">
       <div id="justStart"> <a class="headText" href="start.html">getting started</a> </div>
       <div id="resources"> <a class="headText" href="resources.html">Resources</a> </div>
@@ -15,13 +17,16 @@
       <div id="numbers"> <a class="headText" href="numbers.html">the numbers</a> </div>
     </div>
 
-    <form action=”main.py” method=”POST”> 
-      <label> Username </label> 
-      <input type=”text” name=”username” value={{request.form.username}}> 
-      <label> Password </label> 
-      <input type=”password” name=”password” value={{request.form.password}}> 
-     
-      <button type=”submit”> Submit </button> 
-    </form> 
-  </body>
+    <form action ="includes/formhandler.php" method ="post">
+
+      <label for="nameInput">Search Summoner...</label>
+      <input id="nameInput" type="text" name="nameInput" placeholder="Summoner Search">
+
+      <button type="submit">Search</button>
+
+
+    </form>
+  </main>
+</body>
+
 </html>
