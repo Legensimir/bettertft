@@ -1,0 +1,61 @@
+@font-face {
+    font-family: HighSwiftPersonalUse;
+    src: url(HighSwiftPersonalUse.ttf);
+  }
+
+body {
+    background-color:rgb(240, 248, 220);
+    text-align: center;
+    margin:0;
+    padding:0;
+
+}
+
+#headComplete {
+    display:flex;
+    font-family:HighSwiftPersonalUse;
+    background-color:rgb(226, 248, 175);
+}
+
+#headBetter {
+    font-size:240%;
+    text-decoration: none;
+    width:20%;
+}
+
+#justStart {
+    text-decoration: none;
+    font-size:120%;
+    padding-top: 0.5%;
+    width:20%;
+}
+
+#resources {
+    text-decoration: none;
+    font-size:120%;
+    padding-top: 0.5%;
+    width:20%;
+}
+
+#mechanics {
+    text-decoration: none;
+    font-size:120%;
+    padding-top: 0.5%;
+    width:20%;
+}
+
+#numbers {
+    text-decoration: none;
+    font-size:120%;
+    padding-top: 0.5%;
+    width:20%;
+}
+
+.headText {
+    text-decoration: none;
+    font-weight:lighter;
+}
+
+#headSelected {
+    color:orangered;
+}
